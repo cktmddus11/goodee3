@@ -12,7 +12,9 @@ while True:
         # index 이후의 파이썬 문자열의 위치
         index = mystr.index("파이썬", index)  # 0번쨰 인덱스 이후의 값에서 파이썬 찾기
         print(index)
-        strpos.append(index)
+        # \ 하면 위 한줄로 된거 나눠서 쓸 수 있음
+        strpos.\
+        append(index)
         index += 1
     except:
         break
