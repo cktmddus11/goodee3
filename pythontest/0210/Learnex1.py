@@ -18,7 +18,7 @@ for row in xor_data:
     data.append([p, q]) # 문제와 
     label.append(r) # 결과 분리
     
-clf = svm.SVC() # 머신런닝을 위한 객체
+clf = svm.SVC() # 머신러닝을 위한 객체
 clf.fit(data, label) # 기계를 학습시킴
 
 # 평가하기 위한 데이터 생성
